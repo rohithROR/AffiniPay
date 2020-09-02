@@ -1,4 +1,4 @@
-require 'byebug'
+
 def cal_time(time, mins)
     #check if time in valid format
     time_match = time.strip.match /^(12|11|10|0?\d):([012345]\d)\s+(AM|PM)/
